@@ -15,13 +15,26 @@
 
     <h1>Welcome To Trivia Roulette</h1>
 
-    <h2>name</h2>
-    <h2>time</h2>
-    <h2>company</h2>
-    <h2>notes</h2>
-    <h2>rating</h2>
+    <h2 id="weekday">Day</h2>
+    <h2 id="name_target">Name</h2>
+    <h2 id="time_target">Time</h2>
+    <h2 id="company_target">Company</h2>
+    <h2 id="notes_target">Notes</h2>
+    <h2 id="rating_target">Rating</h2>
 
-    <button id="roulette_btn"></button>
+    <input type="checkbox" name="dayCheckbox" id="monday">
+    <label for="monday">Monday</label>
+    <input type="checkbox" name="dayCheckbox" id="tuesday">
+    <label for="tuesday">Tuesday</label>
+    <input type="checkbox" name="dayCheckbox" id="wednesday">
+    <label for="wednesday">Wednesday</label>
+    <input type="checkbox" name="dayCheckbox" id="thursday">
+    <label for="thursday">Thursday</label>
+
+    <div>
+        <input type="submit" value="submit" id="roulette_btn"></button>
+    </div>
+
 
     <script type="json" src="./trivia_locations.json"></script>
     <script type="text/javascript" src="./trivia_logic.js"></script>

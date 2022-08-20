@@ -1,315 +1,311 @@
-{
-    "weekdays": [
+[
+    [
         {
-            "monday": [
-                {
-                    "name": "Rhino Market",
-                    "time": "6: 30",
-                    "company": "?",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Summit Seltzer",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Divine Barrel",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Sir Edmund Halley's",
-                    "time": "7:00",
-                    "company": "?",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Kilted Buffalo Plaza Midwood",
-                    "time": "7:00",
-                    "company": "Drinkin' N Thinkin'",
-                    "notes": "",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Two Buck Saloon",
-                    "time": "8:00",
-                    "company": "",
-                    "notes": "",
-                    "rating": "TBD"
-                }
-            ],
-            "tuesday": [
-                {
-                    "name": "Heist Barrel Arts",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Wooden Robot (Southend)",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "The Fairwood 226",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Rosie's Coffee and Wine Garden",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "*weather dependent",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Skiptown",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Midnight Mulligan",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Big Ben Pub",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Cypress Drinkery",
-                    "time": "7:00",
-                    "company": "?",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "The Lodge",
-                    "time": "7:30",
-                    "company": "?",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Angry Ale's Montford",
-                    "time": "8:00",
-                    "company": "?",
-                    "notes": "Music Trivia",
-                    "rating": "TBD"
-                }
-            ],
-            "wednesday": [
-                {
-                    "name": "Harris Teeter Riverbend",
-                    "time": "6:30",
-                    "company": "Drinkin' N Thinkin'",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Devil's Logic",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Lenny Boy",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Resident Culture",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Hoptown Brewery",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Steamers Sports Pub",
-                    "time": "7:00",
-                    "company": "Eklipse(Ken)",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Que Onda Tacos University",
-                    "time": "7:00",
-                    "company": "Drinkin' N Thinkin'",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Town Brewing",
-                    "time": "7:30",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Brazwells",
-                    "time": "7:30",
-                    "company": "?",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Tipsy Burro",
-                    "time": "7:30",
-                    "company": "Tipsy Trivia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Angry Ale's Montford",
-                    "time": "8:00",
-                    "company": "?",
-                    "notes": "Pop Culture",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Bhramari ",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                }
-            ],
-            "thursday": [
-                {
-                    "name": "NoDa Brewing",
-                    "time": "6:00",
-                    "company": "?",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Gilde Brewery",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "Pop Culture",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Catawba Brewery",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Hopfly",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Edge City",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Free Will Craft & Vine",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Bulldog Taproom",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "The Chamber by Wooden Robot",
-                    "time": "7:00",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Sugar Creek Brewing",
-                    "time": "7:00",
-                    "company": "Queen City Trivia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Red Clay Ciderworks",
-                    "time": "7:00",
-                    "company": "?",
-                    "notes": "Themed?",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Armored Cow Brewing",
-                    "time": "7:00",
-                    "company": "?",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Ed's Tavern",
-                    "time": "8:00",
-                    "company": "?",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "VBGB",
-                    "time": "8:15",
-                    "company": "Roadie Rob",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "Rhino Market NoDa",
-                    "time": "7:00",
-                    "company": "Charlotte Trivia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                },
-                {
-                    "name": "FreeMore Tavern",
-                    "time": "?",
-                    "company": "Mindless Minutia",
-                    "notes": "TBD",
-                    "rating": "TBD"
-                }
-            ]
+            "name": "Rhino Market",
+            "time": "6: 30",
+            "company": "?",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Summit Seltzer",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Divine Barrel",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Sir Edmund Halley's",
+            "time": "7:00",
+            "company": "?",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Kilted Buffalo Plaza Midwood",
+            "time": "7:00",
+            "company": "Drinkin' N Thinkin'",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Two Buck Saloon",
+            "time": "8:00",
+            "company": "?",
+            "notes": "TBD",
+            "rating": "TBD"
+        }
+    ],
+    [
+        {
+            "name": "Heist Barrel Arts",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Wooden Robot (Southend)",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "The Fairwood 226",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Rosie's Coffee and Wine Garden",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "*weather dependent",
+            "rating": "TBD"
+        },
+        {
+            "name": "Skiptown",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Midnight Mulligan",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Big Ben Pub",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Cypress Drinkery",
+            "time": "7:00",
+            "company": "?",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "The Lodge",
+            "time": "7:30",
+            "company": "?",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Angry Ale's Montford",
+            "time": "8:00",
+            "company": "?",
+            "notes": "Music Trivia",
+            "rating": "TBD"
+        }
+    ],
+    [
+        {
+            "name": "Harris Teeter Riverbend",
+            "time": "6:30",
+            "company": "Drinkin' N Thinkin'",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Devil's Logic",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Lenny Boy",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Resident Culture",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Hoptown Brewery",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Steamers Sports Pub",
+            "time": "7:00",
+            "company": "Eklipse(Ken)",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Que Onda Tacos University",
+            "time": "7:00",
+            "company": "Drinkin' N Thinkin'",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Town Brewing",
+            "time": "7:30",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Brazwells",
+            "time": "7:30",
+            "company": "?",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Tipsy Burro",
+            "time": "7:30",
+            "company": "Tipsy Trivia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Angry Ale's Montford",
+            "time": "8:00",
+            "company": "?",
+            "notes": "Pop Culture",
+            "rating": "TBD"
+        },
+        {
+            "name": "Bhramari ",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        }
+    ],
+    [
+        {
+            "name": "NoDa Brewing",
+            "time": "6:00",
+            "company": "?",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Gilde Brewery",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "Pop Culture",
+            "rating": "TBD"
+        },
+        {
+            "name": "Catawba Brewery",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Hopfly",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Edge City",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Free Will Craft & Vine",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Bulldog Taproom",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "The Chamber by Wooden Robot",
+            "time": "7:00",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Sugar Creek Brewing",
+            "time": "7:00",
+            "company": "Queen City Trivia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Red Clay Ciderworks",
+            "time": "7:00",
+            "company": "?",
+            "notes": "Themed?",
+            "rating": "TBD"
+        },
+        {
+            "name": "Armored Cow Brewing",
+            "time": "7:00",
+            "company": "?",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Ed's Tavern",
+            "time": "8:00",
+            "company": "?",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "VBGB",
+            "time": "8:15",
+            "company": "Roadie Rob",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "Rhino Market NoDa",
+            "time": "7:00",
+            "company": "Charlotte Trivia",
+            "notes": "TBD",
+            "rating": "TBD"
+        },
+        {
+            "name": "FreeMore Tavern",
+            "time": "?",
+            "company": "Mindless Minutia",
+            "notes": "TBD",
+            "rating": "TBD"
         }
     ]
-}
+]
