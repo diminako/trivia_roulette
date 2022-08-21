@@ -1,14 +1,32 @@
 * {
     /* margin: 0 auto; */
     padding: 0 5%;
+    background-color: lightslategrey;
+}
+
+h1 {
+    color: navy;
+    text-decoration: underline;
 }
 
 h2 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid gainsboro;
     width: 50%;
 }
 
+.inputs {
+    padding: 2%;
+}
+
+.display {
+    padding-top: 2%;
+}
+
 #roulette_btn {
-    width: 100px;
+    text-align: center;
+    font-size: larger;
+    margin: 0 auto;
     height: 30px;
+    background-color: gainsboro;
+    box-shadow: 10px 5px maroon;
 }

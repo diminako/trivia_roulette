@@ -13,9 +13,9 @@ const company_target = document.getElementById("company_target");
 const notes_target = document.getElementById("notes_target");
 const rating_target = document.getElementById("rating_target");
 const dayCheckbox = document.getElementsByName("dayCheckbox")
-var days = [];
+let days = [];
 
-
+// Assign the values to the HTML 
 const assignValues = (selectedDay, choice, daysValue) => {
     weekday.innerHTML = daysValue
     name_target.innerHTML = trivia[selectedDay][choice].name
@@ -25,7 +25,8 @@ const assignValues = (selectedDay, choice, daysValue) => {
     rating_target.innerHTML = trivia[selectedDay][choice].rating
 }
 
-roulette_btn.addEventListener("click", function () {
+
+const pushDaysChecked = () => {
     days = [];
     dayCheckbox.forEach(day => {
         if (day.checked === true) {
@@ -35,14 +36,19 @@ roulette_btn.addEventListener("click", function () {
             return
         }
     })
+}
+
+// event listener on the Button click
+roulette_btn.addEventListener("click", function () {
+    pushDaysChecked()
 
     function randomSelection(selectedDay) {
         return Math.floor(Math.random() * trivia[selectedDay].length);
     }
 
-    var selectedDay = Math.floor(Math.random() * days.length)
-    var choice = randomSelection(selectedDay);
-    var daysValue = days[selectedDay].id;
+    let selectedDay = Math.floor(Math.random() * days.length)
+    let choice = randomSelection(selectedDay);
+    let daysValue = days[selectedDay].id;
 
     assignValues(selectedDay, choice, daysValue)
 })
