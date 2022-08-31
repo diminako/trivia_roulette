@@ -13,7 +13,7 @@ const company_target = document.getElementById("company_target");
 const notes_target = document.getElementById("notes_target");
 const rating_target = document.getElementById("rating_target");
 const dayCheckbox = document.getElementsByName("dayCheckbox")
-let days = [];
+// let days = [];
 
 // Assign the values to the HTML 
 const assignValues = (selectedDay, choice, daysValue) => {
@@ -27,7 +27,7 @@ const assignValues = (selectedDay, choice, daysValue) => {
 
 
 const pushDaysChecked = () => {
-    days = [];
+    var days = [];
     dayCheckbox.forEach(day => {
         if (day.checked === true) {
             days.push(day)
@@ -37,6 +37,7 @@ const pushDaysChecked = () => {
 //             return
 //         }
     })
+    return days;
 }
 
 // event listener on the Button click
