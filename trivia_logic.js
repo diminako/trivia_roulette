@@ -31,10 +31,11 @@ const pushDaysChecked = () => {
     dayCheckbox.forEach(day => {
         if (day.checked === true) {
             days.push(day)
-        } else {
-            weekday.innerHTML = "Choose a day, Please.";
-            return
-        }
+        } 
+//         else {
+//             weekday.innerHTML = "Choose a day, Please.";
+//             return
+//         }
     })
 }
 
